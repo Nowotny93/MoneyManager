@@ -1,0 +1,32 @@
+table {
+
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.expenseRow {
+    background-color: lightgray;
+}
+
+.incomeRow {
+    background-color: cyan;
+}
+
+table th {
+    background-color: #234465;
+    color: white;
+}
+
+table tbody tr:hover {
+    background-color: palegreen;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.rowBtn {
+        float: right;
+}
