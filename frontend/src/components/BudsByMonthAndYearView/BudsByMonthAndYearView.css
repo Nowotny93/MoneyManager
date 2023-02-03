@@ -1,0 +1,17 @@
+#backBtnFilteredBuds {
+    width: 5%;
+    padding: 4px;
+    margin: 0px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: none;
+    background: #234465;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+#backBtnFilteredBuds:hover {
+    background: darkslateblue;
+}

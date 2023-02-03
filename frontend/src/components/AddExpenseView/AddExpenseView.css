@@ -1,0 +1,145 @@
+.main-block {
+      max-width: 340px;
+      min-height: 460px;
+      padding: 10px 0;
+      margin-left: 490px;
+      margin-top: 20px;
+      border-radius: 5px;
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+      background: #ebebeb;
+}
+
+h1 {
+      margin: 10px;
+      font-size: 32px;
+      font-weight: 300;
+      text-align: center;
+}
+
+select {
+    width: calc(100% - 48px);
+    height: 43px;
+    margin: 15px 0 7px 0;
+    padding-left: 13px;
+    border-radius: 0 7px 1px 0;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    background: #fff;
+}
+
+.submitBtn {
+    float: left;
+    width: 70%;
+    padding: 11px 0;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    background: #1c87c9;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 14px;
+}
+
+.submitAddBtn {
+      float: left;
+      width: 100%;
+      padding: 11px 0;
+      margin: 20px auto;
+      border-radius: 5px;
+      border: none;
+      background: #1c87c9;
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      margin-right: 14px;
+}
+
+button {
+      width: 20%;
+      padding: 10px 0;
+      margin: 20px auto;
+      border-radius: 5px;
+      border: none;
+      background: #1c87c9;
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+}
+
+.submitBtn:hover {
+      background: darkslateblue;
+}
+
+.submitAddBtn:hover {
+      background: darkslateblue;
+}
+
+#icon {
+      display: inline-block;
+      padding: 9.3px 15px;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+      background: #1c87c9;
+      color: #fff;
+      text-align: center;
+}
+
+label#icon {
+      margin: 0;
+      border-radius: 5px 0 0 5px;
+      height: 25px
+}
+
+form {
+      margin: 0 30px;
+}
+
+input[type=text] {
+    width: calc(100% - 69px);
+    height: 40px;
+    margin: 15px 0 7px 0;
+    padding-left: 16px;
+    border-radius: 0 7px 1px 0;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    background: #fff;
+}
+
+input[type=number] {
+    width: calc(100% - 69px);
+    height: 40px;
+    margin: 15px 0 7px 0;
+    padding-left: 16px;
+    border-radius: 0 7px 1px 0;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    background: #fff;
+}
+
+input[type=date] {
+    width: calc(100% - 69px);
+    height: 42px;
+    margin: 15px 0 7px 0;
+    padding-left: 16px;
+    border-radius: 0 7px 1px 0;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    background: #fff;
+}
+
+.deleteBtn {
+    width: 23%;
+    padding: 12.5px 0;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    background: #1c87c9;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.deleteBtn:hover {
+      background: darkslateblue;
+}

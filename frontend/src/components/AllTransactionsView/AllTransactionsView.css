@@ -1,0 +1,167 @@
+.filterByMonthField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 15vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(192,192,192), rgba(0, 0, 0, 0));
+}
+
+.filterByMonthLabel {
+    padding: 20px;
+    margin-top: 17px;
+}
+
+.selectMonth {
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    margin-right: 10px;
+}
+
+.selectYear {
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+}
+
+.backBtn {
+    width: 4%;
+    padding: 4px;
+    margin: 3px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: none;
+    background: #234465;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: -30px;
+}
+
+.backBtn:hover {
+    background: darkslateblue;
+}
+
+
+.filterBtn {
+    float: left;
+    width: 7%;
+    padding: 7px;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #234465;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 18px;
+}
+
+.filterBtn:hover {
+    /* background: #26a9e0; */
+    background-color: darkslateblue;
+}
+
+table {
+
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.expenseRow {
+    background-color: lightgray;
+}
+
+.incomeRow {
+    background-color: cyan;
+}
+
+table th {
+    background-color: #234465;
+    color: white;
+}
+
+table tbody tr:hover {
+    background-color: palegreen;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.rowBtn {
+        float: right;
+        padding: 3px;
+        background-color: silver;
+        color: #234465;
+        border-radius: 5px;
+        border: solid 1px #ccc;
+        cursor: pointer;
+        margin-left: 3px
+}
+
+.rowBtn:hover {
+    background-color: rgb(184, 183, 194);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 9px;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* background-color: palegreen; */
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+  }
+
+.chart {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.chartBtn {
+    width: 4%;
+    padding: 4px;
+    margin: -62px;
+    margin-left: -65px;
+    border-radius: 5px;
+    border: none;
+    background: #234465;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: -23px;
+}
+
+.chartBtn:hover {
+    background: darkslateblue;
+}
+
+.pieChart {
+    width: 20%;
+    padding: 10px;
+}
+
+.barChart {
+    width: 30%;
+}

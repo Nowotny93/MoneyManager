@@ -1,0 +1,65 @@
+.budgetField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 15vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(192,192,192), rgba(0, 0, 0, 0));
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#recentTransTable {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 30px 15px 10px 15px;
+    background-color: lightcoral
+}
+
+.recentTransLabel {
+    margin-left: 160px;
+    margin-top: 8px;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#topSpendingsTable {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 30px 15px 10px 15px;
+    background-color: lightslategrey
+}
+
+#topIncomesTable {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 30px 15px 10px 15px;
+    background-color: rgb(39, 89, 180)
+}
+
+.chartSavings {
+    padding: 20px 15px 20px 15px;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 78%;
+    margin: 0 auto;
+}
+
+#barChartSavings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    height: 200px;
+}

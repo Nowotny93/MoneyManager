@@ -1,0 +1,45 @@
+.header {
+    width: 100%;
+    height: 12vh;
+    background-color: #234465;
+    color: white;
+    top: 0;
+    border-bottom: 2px solid #ffa000;
+    border-top: 2px solid #ffa000;
+}
+
+.headerButtons {
+    width: 5em;
+    height: 1.8em;
+    margin: -2px;
+}
+
+.headerBtnTexts {
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.headerPositioning {
+    /* margin-right: 30px; */
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    margin: -6px;
+
+}
+
+ul {
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+ul:hover {
+    background-color:darkslateblue;
+
+}
