@@ -28,7 +28,7 @@ class RegisterView extends React.Component  {
 
     register = (event) => {
         event.preventDefault();
-        fetch("http://localhost:8000/manager/register/", {
+        fetch("https://money-manager-three.vercel.app/register", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
